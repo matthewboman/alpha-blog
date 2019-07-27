@@ -92,6 +92,11 @@ $primary: #4C19DB;
 
 
 // Articles
+.article-meta-details {
+  border-top: 1px solid #eaeaea;
+  margin-top: 15px;
+}
+
 .article-actions {
   border-top: 1px solid #eaeaea;
   padding-top: 5px;
@@ -110,4 +115,11 @@ $primary: #4C19DB;
   border-top: 1px solid #eaeaea;
   padding-bottom: 15px;
   padding-top: 15px;
+}
+
+
+// Users
+.listing {
+  list-style: none;
+  padding-left: 0;
 }
