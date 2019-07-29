@@ -123,3 +123,24 @@ $primary: #4C19DB;
   list-style: none;
   padding-left: 0;
 }
+
+
+// Categories
+.badge {
+  background-color: $primary;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+
+  a {
+    color: #fff;
+
+    &:hover {
+      color: #fff;
+    }
+  }
+}
+
+.input_checkbox input {
+  width: auto !important;
+}
